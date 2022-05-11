@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --bg-color: rgb(47, 62, 70);
+    --color-two: rgb(132, 169, 140);
+
+}
+
+h1 {
+    color: var(--bg-color);
+    text-align: center;
+    margin: 25px;
+}
+
+h2 {
+    color: var(--bg-color);
+    text-align: center;
+}
+
+body {
+    background-color: rgb(202, 210, 197)
+}
+
+p {
+    color: var(--bg-color);
+    font-size: 18px;
+    text-align: center;
+    margin: 25px;
+
+
+}
+
+figcaption {
+    color: blueviolet;
+}
+
+ul {
+    color: rgb(53, 79, 82);
+    text-align: center;
+    margin: 25px;
+    list-style: none ;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+img {
+    width: 300px;
+    border-radius: 100%;
+}
+
+
+.index {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 15px 0px;
+
+}
+
+.index a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: var(--bg-color);
+    font-weight: bold;
+}
+
+.index a:hover {
+    color: var(--color-two);
+}
+
+.footer a{
+    text-decoration: none;
+    color: var(--bg-color);
+    font-weight: bold;
+}
+
+.footer a:hover {
+    color: var(--color-two);
+}
